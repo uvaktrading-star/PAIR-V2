@@ -66,16 +66,13 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
                 try {
                     const credsData = fs.readFileSync(credsFilePath, 'utf-8');
                     const base64Session = Buffer.from(credsData).toString('base64');
-                    const md = "ANJU-XPRO~" + base64Session;
+                    const md = "ZANTA-MD~" + base64Session;
                     const codeMessage = await sock.sendMessage(sock.user.id, { text: md });
                     
                     let cap = `
 🔐 *𝙳𝙾 𝙽𝙾𝚃 𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
 
-Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
-
-📂 *WEBSITE:*  
-👉 https://xpro-botz-ofc.vercel.app/
+Use this code to create your own *ZANTA-MD-V2* WhatsApp User Bot. 🤖
 
 🛠️ *To add your SESSION_ID:*  
 1. Open the \`session.js\` file in the repo.  
@@ -93,7 +90,7 @@ module.exports = {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
-                                title: "QUEEN ANJU XPRO ✅",
+                                title: "ZANTA-MD-V2✅",
                                 thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
                                 sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
                                 mediaType: 2,
@@ -113,10 +110,7 @@ module.exports = {
                     let cap = `
 🔐 *𝙳𝙾 𝙽𝙾𝚃 �𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 �𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
 
-Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
-
-📂 *WEBSITE:*  
-👉 https://xpro-botz-ofc.vercel.app/
+Use this code to create your own *ZANTA-MD-V2* WhatsApp User Bot. 🤖
 
 🛠️ *To add your SESSION_ID:*  
 1. Open the \`session.js\` file in the repo.  
@@ -134,7 +128,7 @@ module.exports = {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
-                                title: "QUEEN ANJU XPRO",
+                                title: "ZANTA-MD-V2",
                                 thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
                                 sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
                                 mediaType: 2,
